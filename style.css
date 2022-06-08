@@ -11,3 +11,61 @@
 .button--full{
   display: block;
 }
+
+
+.header{
+  width: 100%;
+  position: relative;
+}
+
+.header__context{
+  border:1px solid #ee144e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+  padding: 8px 15px;
+}
+
+.header__context-logo{
+  display: flex;
+}
+
+.header__context-menu{
+  display: flex;
+
+  position: center;
+}
+
+.header__link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.header__link {
+  padding: 6px 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.header__context-usercontrols{
+  display: flex;
+}
+
+.singin{
+  display: flex;
+}
+
+.spiderman{
+  display: flex;
+}
+
+.singup{
+  display: flex;
+}
