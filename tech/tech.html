@@ -17,88 +17,87 @@
 
 
 
-      <div class="header selectable">
-         <div class="header__context">
-           <div class="header__context-logo"><img src="../img/LOGO.svg"/></div>
-           <div class="header__context-menu">
-             <a class="header__link" href="#news">News</a>
-             <a class="header__link" href="#series">Series</a>
-             <a class="header__link" href="#characters">Characters</a>
+    <div class="header selectable">
+         <div class="header__logo">
+             <div class="logoImage"><img src="../img/LOGO.svg"/></div>
+         </div>
+         <div class="header__menu">
+           <div class="navMenu">
+             <a class="navMenu__link" href="#news">News</a>
+             <a class="navMenu__link" href="#series">Series</a>
+             <a class="navMenu__link" href="#characters">Characters</a>
            </div>
-           <div class="header__context-usercontrols">
-             <div class="singin"><a href="">Singin</a></div>
-             <div class="spiderman"><img src="../img/spiderman.svg"/></div>
-             <div class="singup"><a href="">Singup</a></div>
+         </div>
+         <div class="header__userControls">
+           <div class="userControls">
+             <div class="userControls__SingIn"><a href="#Singin">Singin</a></div>
+             <div class="userControls__Spiderman">
+               <div class="Spiderman"><img src="../img/spiderman.svg"/></div>
+             </div>
+             <div class="userControls__SingUp"><a href="#Singup">Singup</a></div>
            </div>
          </div>
       </div>
 
-
-      <div class="techBlock">
-        <div class="SingUp selectable">
+    <div class="SingUp selectable">
           <div class="Sing__active">
-             <div class="Sing__active-header"><h1>Signup</h1></div>
-             <div class="Singup__active-question">
-              <div class="Singup__active_question-text">Already have an account?</div>
-              <a class="Singup__active_question-text" href="#Singin">Sing in</a>
+             <div class="Sing__header"><h1>Signup</h1></div>
+             <div class="Sing__question">
+              <div class="Question__text">Already have an account?</div>
+              <a class="Question__text" href="#Singin">Sing in</a>
              </div>
-            <div class="Singup__active-form">
-              <input class="Singup__active_text"placeholder="   Login">
-              <input class="Singup__active_textleft"placeholder="   First name">
-              <input class="Singup__active_textright"placeholder="   Last name">
-              <input class="Singup__active_text"placeholder="   E-mail">
-              <input class="Singup__active_text"placeholder="   Password">
-              <input class="Singup__active_register"placeholder="Register">
+            <div class="Sing__form">
+              <input class="Sing__text"placeholder="Login">
+              <div class="Sing__name">
+                <input class="Sing__name_left"placeholder="   First name">
+                <input class="Sing__name_right"placeholder="   Last name">
+              </div>
+              <input class="Sing__text"placeholder="E-mail">
+              <input class="Sing__text"placeholder="Password">
+              <div class="Sing__register">Register</div>
             </div>
-            <div class="Singup__active-check">
+
+            <div class="Sing__check">
               <input type="checkbox" name="required"></input>
-              <div class="Singup__active-question">
-                <div class="Singup__active-check-text">I have read and agree to the </div>
-                <a class="Singup__active-check-link" href="#"> Terms of Service</a>
+              <div class="Sing__question">
+                <div class="Question__text">I have read and agree to the </div>
+                <a class="Question__link" href="#">Terms of Service</a>
               </div>
             </div>
           </div>
           <div class="Sing__empty"></div>
         </div>
+
+    <div class="SingIn selectable">
+      <div class="Sing__active">
+        <div class="Sing__header"><h1>Signin</h1></div>
+        <div class="Sing__question">
+          <div class="Question__text">Don’t have an account?</div>
+          <a class="Question__text" href="#Singin">Sign up</a>
+       </div>
+       <div class="Sing__form">
+          <input class="Sing__text"placeholder="Login">
+          <input class="Sing__text"placeholder="Password">
+         <div class="Sing__register">Login</div>
+       </div>
       </div>
-
-
-
-      <div class="techBlock">
-        <div class="SingIn selectable">
-          <div class="Sing__active">
-            <div class="Sing__active-header"><h1>Signin</h1></div>
-            <div class="Singup__active-question">
-              <div class="Singup__active_question-text">Don’t have an account?</div>
-              <a class="Singup__active_question-text" href="#Singin">Sign up</a>
-            </div>
-            <div class="Singup__active-form">
-              <input class="Singup__active_text"placeholder="   Login">
-              <input class="Singup__active_text"placeholder="   Password">
-              <input class="Singup__active_register"placeholder="Login">
-            </div>
-          </div>
           <div class="Sing__empty"></div>
-        </div>
-      </div>
+    </div>
 
-
-
-      <div class="techBlock">
-        <div class="footer selectable">
-          <div class="footer__container">
-            <div class="footer__containerleft">
-             <div class="footer__logo"><div class="header__context-logo"><img src="../img/LOGO_2.svg"/></div></div>
-             <div class="footer__text">Copyright 2022 Super-Heroes Shop</div>
-             <div class="footer__socmedia">
-              <div class="footer__info"><div class="header__context-logo"><img src="../img/Instagram.svg"/></div></div>
-              <div class="footer__info"><div class="header__context-logo"><img src="../img/twitter.svg"/></div></div>
-              <div class="footer__info"><div class="header__context-logo"><img src="../img/facebook.svg"/></div></div>
-             </div>
-            </div>
-
-
-           <div class="footer__containerright">
+    <div class="footer selectable">
+       <div class="footer__container">
+         <div class="footer__containerleft">
+           <div class="footer__logo">
+             <div class="logo"><img src="../img/LOGO_2.svg"/></div>
+           </div>
+           <div class="footer__text">Copyright 2022 Super-Heroes Shop</div>
+           <div class="footer__socmedia">
+            <div class="socmedia__logo"><img src="../img/Instagram.svg"/></div>
+            <div class="socmedia__logo"><img src="../img/twitter.svg"/></div>
+            <div class="socmedia__logo"><img src="../img/facebook.svg"/></div>
+           </div>
+         </div>
+         <div class="footer__containerRight">
              <div class="footer__nav-main">
                <div class="footer__nav-Menu">
                  <a class="footer__nav-main-text" href="#Menu">Menu</a>
@@ -120,10 +119,9 @@
                </div>
              </div>
            </div>
-           </div>
-         </div>
-        </div>
-      </div>
+       </div>
+    </div>
+
 
 
 
